@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class firstPersonController : MonoBehaviour {
     public float movementSpeed = 5.0f;
     public float mouseSensitivity = 5.0f;
@@ -12,16 +13,20 @@ public class firstPersonController : MonoBehaviour {
 
 	private float verticalVelocity = 0;
 
+	private CharacterController characterController;
+		
+
 	// Use this for initialization
 	void Start () {
         //locks cursor to the game
         Cursor.lockState = CursorLockMode.Locked;
+		characterController = GetComponent<CharacterController>();
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		CharacterController cc = GetComponent<CharacterController>();
-		
+
         //rotation
         float rotLeftRight = Input.GetAxis("Mouse X") * mouseSensitivity;
         transform.Rotate(0, rotLeftRight, 0);
@@ -36,9 +41,15 @@ public class firstPersonController : MonoBehaviour {
 
 		verticalVelocity += Physics.gravity.y * Time.deltaTime;
 
-		if ( cc.isGrounded && Input.GetButtonDown("Jump"))
+		if ( characterController.isGrounded && Input.GetButtonDown("Jump"))
 		{
 			verticalVelocity = jumpSpeed;
+		}
+
+		if (Input.GetButton("Sprint"))
+		{
+			forwardSpeed *= 1.5f;
+			sideSpeed *= 1.5f;
 		}
 		
         Vector3 speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
@@ -47,7 +58,7 @@ public class firstPersonController : MonoBehaviour {
 
         
 
-		cc.Move(speed * Time.deltaTime);
+		characterController.Move(speed * Time.deltaTime);
 
 	}
 }

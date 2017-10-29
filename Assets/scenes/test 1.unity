@@ -269,7 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 5
   mouseSensitivity: 2
-  jumpSpeed: 7
+  jumpSpeed: 5
   upDownRange: 70
 --- !u!143 &1793200307
 CharacterController:

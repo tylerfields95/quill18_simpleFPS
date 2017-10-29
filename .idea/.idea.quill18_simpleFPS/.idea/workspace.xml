@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56df4622-7958-412d-83ed-883e121abd00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/scenes/test 1/LightingData.asset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/scenes/test 1/ReflectionProbe-0.exr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/scenes/test 1.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/scenes/test 1/LightingData.asset.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/scenes/test 1/ReflectionProbe-0.exr.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/library/InspectorExpandedItems.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/assetDatabase3" afterPath="$PROJECT_DIR$/library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/metadata/00/00000000000000002000000000000000" afterPath="$PROJECT_DIR$/library/metadata/00/00000000000000002000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/metadata/00/00000000000000009000000000000000" afterPath="$PROJECT_DIR$/library/metadata/00/00000000000000009000000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.quill18_simpleFPS/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.quill18_simpleFPS/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scenes/test 1.unity" afterPath="$PROJECT_DIR$/Assets/scenes/test 1.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/firstPersonController.cs" afterPath="$PROJECT_DIR$/Assets/scripts/firstPersonController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/library/shadercompiler-UnityShaderCompiler.exe0.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +30,15 @@
       <file leaf-file-name="firstPersonController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/firstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="198">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
-                <marker date="1509250986129" expanded="false" signature="6:78" ph="..." />
-                <marker date="1509250986129" expanded="true" signature="131:1499" ph="{...}" />
-                <marker date="1509250986129" expanded="true" signature="404:493" ph="{...}" />
-                <marker date="1509250986129" expanded="true" signature="548:1497" ph="{...}" />
-                <marker date="1509250986129" expanded="true" signature="1278:1319" ph="{...}" />
+                <marker date="1509252193460" expanded="true" signature="6:78" ph="..." />
+                <marker date="1509252193460" expanded="true" signature="179:1720" ph="{...}" />
+                <marker date="1509252193460" expanded="true" signature="506:657" ph="{...}" />
+                <marker date="1509252193460" expanded="true" signature="712:1718" ph="{...}" />
+                <marker date="1509252193460" expanded="true" signature="1393:1434" ph="{...}" />
+                <marker date="1509252193460" expanded="true" signature="1468:1523" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,6 +93,24 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="quill18_simpleFPS (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="quill18_simpleFPS (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="quill18_simpleFPS (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="quill18_simpleFPS (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -119,12 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509237775446</updated>
       <workItem from="1509237778953" duration="181000" />
-      <workItem from="1509248155387" duration="2490000" />
+      <workItem from="1509248155387" duration="4350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2671000" />
+    <option name="totallyTimeSpent" value="4531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -178,25 +208,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509250986129" expanded="false" signature="6:78" ph="..." />
-            <marker date="1509250986129" expanded="true" signature="131:1499" ph="{...}" />
-            <marker date="1509250986129" expanded="true" signature="404:493" ph="{...}" />
-            <marker date="1509250986129" expanded="true" signature="548:1497" ph="{...}" />
-            <marker date="1509250986129" expanded="true" signature="1278:1319" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="6:78" ph="..." />
+            <marker date="1509252193460" expanded="true" signature="179:1720" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="506:657" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="712:1718" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="1393:1434" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="1468:1523" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/firstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="198">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
-            <marker date="1509250986129" expanded="false" signature="6:78" ph="..." />
-            <marker date="1509250986129" expanded="true" signature="131:1499" ph="{...}" />
-            <marker date="1509250986129" expanded="true" signature="404:493" ph="{...}" />
-            <marker date="1509250986129" expanded="true" signature="548:1497" ph="{...}" />
-            <marker date="1509250986129" expanded="true" signature="1278:1319" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="6:78" ph="..." />
+            <marker date="1509252193460" expanded="true" signature="179:1720" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="506:657" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="712:1718" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="1393:1434" ph="{...}" />
+            <marker date="1509252193460" expanded="true" signature="1468:1523" ph="{...}" />
           </folding>
         </state>
       </provider>
