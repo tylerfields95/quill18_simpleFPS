@@ -179,7 +179,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 103
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -269,7 +269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 5
   mouseSensitivity: 2
-  upDownRange: 60
+  jumpSpeed: 7
+  upDownRange: 70
 --- !u!143 &1793200307
 CharacterController:
   m_ObjectHideFlags: 0
@@ -294,7 +295,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1793200305}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: -19}
+  m_LocalPosition: {x: -3, y: 100, z: -19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 197123779}
